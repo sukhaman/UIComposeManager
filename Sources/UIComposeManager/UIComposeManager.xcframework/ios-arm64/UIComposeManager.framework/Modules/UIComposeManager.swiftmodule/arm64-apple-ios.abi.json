@@ -1,0 +1,263 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UIComposeManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TitleLabel",
+        "printedName": "TitleLabel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TitleLabel",
+                "printedName": "UIComposeManager.TitleLabel",
+                "usr": "c:@M@UIComposeManager@objc(cs)TitleLabel"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UIComposeManager@objc(cs)TitleLabel(im)initWithFrame:",
+            "mangledName": "$s16UIComposeManager10TitleLabelC5frameACSo6CGRectV_tcfc",
+            "moduleName": "UIComposeManager",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIComposeManager.TitleLabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TitleLabel",
+                    "printedName": "UIComposeManager.TitleLabel",
+                    "usr": "c:@M@UIComposeManager@objc(cs)TitleLabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UIComposeManager@objc(cs)TitleLabel(im)initWithCoder:",
+            "mangledName": "$s16UIComposeManager10TitleLabelC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "UIComposeManager",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(textAlignment:fontSize:weight:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TitleLabel",
+                "printedName": "UIComposeManager.TitleLabel",
+                "usr": "c:@M@UIComposeManager@objc(cs)TitleLabel"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSTextAlignment",
+                "printedName": "UIKit.NSTextAlignment",
+                "usr": "c:@E@NSTextAlignment"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Weight",
+                "printedName": "UIKit.UIFont.Weight",
+                "hasDefaultArg": true,
+                "usr": "c:@T@UIFontWeight"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16UIComposeManager10TitleLabelC13textAlignment8fontSize6weightACSo06NSTextF0V_14CoreFoundation7CGFloatVSo12UIFontWeightatcfc",
+            "mangledName": "$s16UIComposeManager10TitleLabelC13textAlignment8fontSize6weightACSo06NSTextF0V_12CoreGraphics7CGFloatVSo12UIFontWeightatcfc",
+            "moduleName": "UIComposeManager",
+            "declAttributes": [
+              "Custom",
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UIComposeManager@objc(cs)TitleLabel",
+        "mangledName": "$s16UIComposeManager10TitleLabelC",
+        "moduleName": "UIComposeManager",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UILabel",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UILabel",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/spsingh\/Documents\/UIComposeManager\/Framework\/UIComposeManager\/UIComposeManager\/Views\/TitleLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 397,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/spsingh\/Documents\/UIComposeManager\/Framework\/UIComposeManager\/UIComposeManager\/Views\/TitleLabel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 695,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/spsingh\/Documents\/UIComposeManager\/Framework\/UIComposeManager\/UIComposeManager\/Views\/TitleLabel.swift",
+      "kind": "FloatLiteral",
+      "offset": 729,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/spsingh\/Documents\/UIComposeManager\/Framework\/UIComposeManager\/UIComposeManager\/Views\/TitleLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 799,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/spsingh\/Documents\/UIComposeManager\/Framework\/UIComposeManager\/UIComposeManager\/Views\/TitleLabel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 853,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

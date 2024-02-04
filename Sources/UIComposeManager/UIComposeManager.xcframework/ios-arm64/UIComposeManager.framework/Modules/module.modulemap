@@ -1,0 +1,11 @@
+framework module UIComposeManager {
+  umbrella header "UIComposeManager.h"
+  export *
+
+  module * { export * }
+}
+
+module UIComposeManager.Swift {
+  header "UIComposeManager-Swift.h"
+  requires objc
+}
